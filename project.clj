@@ -34,5 +34,5 @@
    ["vcs" "tag" "--no-sign"]
    ["deploy" "clojars"]
    ["change" "version" "leiningen.release/bump-version"]
-   ["vcs" "commit" "[artifacts-api] dev version %s"]
+   ["vcs" "commit" "Next development version %s"]
    ["vcs" "push" "origin" "HEAD"]])
