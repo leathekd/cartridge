@@ -1,4 +1,4 @@
-(defproject cartridge "1.1.0"
+(defproject leathekd/cartridge "1.1.0"
   :description "HTTP response playback for clj-http"
   :url "https://www.github.com/leathekd/cartridge"
   :license {:name "Eclipse Public License"
