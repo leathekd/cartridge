@@ -38,12 +38,7 @@ Cartridge is a library for recording & replaying your clj-http responses.
 
 ## Installation
 
-`cartridge` is available as a Maven artifact from
-[Clojars](http://clojars.org/leathekd/cartridge):
-
-```clojure
-[leathekd/cartridge "1.1.0"]
-```
+[![Clojars Project](https://img.shields.io/clojars/v/leathekd/cartridge.svg)](https://clojars.org/leathekd/cartridge)
 
 ## Usage
 
