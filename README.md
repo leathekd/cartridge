@@ -140,7 +140,8 @@ value to associate a request with a response.
 
 ## License
 
-Copyright © 2013 Sonian, Inc.
+Copyright © 2013-2019 Sonian, Inc.
+Original source can be found at http://www.github.com/sonian/cartridge
 
 Cartridge is released under the
 [Eclipse Public License](http://www.eclipse.org/legal/epl-v10.html).
