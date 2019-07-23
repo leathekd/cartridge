@@ -40,7 +40,8 @@
                                   (dissoc-in [:request :http-req])
                                   ;; realize a stream body into a byte array
                                   stash-stream-body)]
-                     (swap! saved-responses-atom assoc key resp)
+                     (swap! saved-responses-atom assoc key
+                            (dissoc resp :http-client))
                      resp))]
       (if-let [content (::body-content resp)]
         ;; refresh the body input stream, if the body was a stream
